@@ -60,3 +60,14 @@
 .ex-7-img:hover {
     filter: grayscale(1);
 }
+
+/* EX 8 */
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: contrast(5);
+    filter: drop-shadow(1);
+}
