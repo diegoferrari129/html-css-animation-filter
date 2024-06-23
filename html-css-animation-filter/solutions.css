@@ -92,10 +92,10 @@
 
 /* EX 11 */
 .ex-11-icon:hover {
-    animation: spin 1s infinite;
+    animation: almostspin 1s infinite;
 }
 
-@keyframes spin {
+@keyframes almostspin {
     0% {
         transform: rotate(0deg);
     }
