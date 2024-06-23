@@ -62,12 +62,16 @@
 }
 
 /* EX 8 */
-.ex-8-img {
-    transition: 1s;
-}
-
 .ex-8-img:hover {
     border-radius: 25px;
     filter: contrast(5);
     filter: drop-shadow(1);
+}
+
+/* EX 9 */
+.ex-9-img:hover {
+    border-radius: 25px;
+    filter: brightness(5);
+    filter:saturate(2);
+    transform: scale(1.5);
 }
