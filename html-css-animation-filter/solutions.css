@@ -108,3 +108,40 @@
         transform: rotate(0deg);
       }
 }
+
+/* EX 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: topwhite 1s infinite;
+}
+
+@keyframes topwhite {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    100% {
+        left: 10%;
+      }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: botwhite 1s infinite;
+}
+
+@keyframes botwhite {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 50%;
+    }
+
+    100% {
+        right: 20%;
+      }
+}
