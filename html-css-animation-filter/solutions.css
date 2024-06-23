@@ -77,7 +77,7 @@
 }
 
 /* EX 10 */
-.ex-10-icon:hover {
+.ex-10-icon {
     animation: spin 1s infinite;
 }
 
