@@ -47,3 +47,7 @@
     transform: scale(0.2);
 }
 
+/* EX 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
