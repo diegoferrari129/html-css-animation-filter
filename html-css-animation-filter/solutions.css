@@ -89,3 +89,22 @@
         transform: rotate(359deg);
       }
 }
+
+/* EX 11 */
+.ex-11-icon:hover {
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(275deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+      }
+}
