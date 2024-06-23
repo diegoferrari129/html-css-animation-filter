@@ -75,3 +75,17 @@
     filter:saturate(2);
     transform: scale(1.5);
 }
+
+/* EX 10 */
+.ex-10-icon:hover {
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+      }
+}
